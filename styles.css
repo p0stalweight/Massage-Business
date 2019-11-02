@@ -1,1 +1,37 @@
-// This file will provide a style sheet
+body{
+    width: 1000px;
+   
+}
+
+
+h1{
+    background-color: gold;
+    text-align: center;
+}
+
+p{
+    background-color:gold;
+    text-align: center;
+
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.resize{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#goldborder {
+    border-style: solid;
+    border-color: gold;
+}
