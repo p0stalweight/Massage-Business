@@ -1,0 +1,41 @@
+p {
+  font-size: 14px;
+  color: darkblue;
+}
+
+div {
+  font-size: 18px;
+  color: darkblue;
+}
+
+h1 {
+  background-color: blue;
+  text-align: center;
+}
+
+p {
+  background-color: blue;
+  text-align: center;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.resize {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#goldborder {
+  border-style: solid;
+  border-color: blue;
+}
+
+/*# sourceMappingURL=stylevariables.css.map */
