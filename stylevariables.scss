@@ -1,11 +1,47 @@
-$color: darkblue;
+$color :darkblue;
+$text-color: white;
+
+div{
+    p{
+        color: $text-color;
+        font-size: 25px;
+    }
+}
 
 p{
-    font-size: 14px;
-    color: $color;
+    font-size: 20px;
+    color: $text-color;
 }
 
 div{
     font-size: 18px;
-    color: $color;
+    color: $text-color;
+    background-color: $color;
 }
+
+h1{
+    text-align: center;
+    color:$text-color;
+    background: $color;
+}
+
+p{
+    background-color: $color;
+}
+
+a:link{
+    color:$text-color;
+}
+
+a:visited{
+    color:$text-color;
+}
+
+.resize{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
