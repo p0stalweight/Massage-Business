@@ -1,32 +1,40 @@
-$color :darkblue;
-$text-color: white;
+$text-color: darkblue;
 
-div{
-    p{
-        color: $text-color;
-        font-size: 25px;
-    }
+h1{
+    padding: 20px;
+}
+
+img{
+    padding: 20px;
 }
 
 p{
     font-size: 20px;
     color: $text-color;
+    text-align: center;
 }
 
 div{
     font-size: 18px;
     color: $text-color;
-    background-color: $color;
+    padding: 20px;
 }
 
 h1{
     text-align: center;
     color:$text-color;
-    background: $color;
 }
 
-p{
-    background-color: $color;
+div{
+    p{
+        color: $text-color;
+        font-size: 25px;
+        
+    }
+}
+
+nav{
+    text-align: center;
 }
 
 a:link{
@@ -42,6 +50,10 @@ a:visited{
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.border{
+    border: solid;
 }
 
 

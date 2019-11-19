@@ -1,35 +1,43 @@
-div p {
-  color: white;
-  font-size: 25px;
+h1 {
+  padding: 20px;
+}
+
+img {
+  padding: 20px;
 }
 
 p {
   font-size: 20px;
-  color: white;
+  color: darkblue;
+  text-align: center;
 }
 
 div {
   font-size: 18px;
-  color: white;
-  background-color: darkblue;
+  color: darkblue;
+  padding: 20px;
 }
 
 h1 {
   text-align: center;
-  color: white;
-  background: darkblue;
+  color: darkblue;
 }
 
-p {
-  background-color: darkblue;
+div p {
+  color: darkblue;
+  font-size: 25px;
+}
+
+nav {
+  text-align: center;
 }
 
 a:link {
-  color: white;
+  color: darkblue;
 }
 
 a:visited {
-  color: white;
+  color: darkblue;
 }
 
 .resize {
@@ -37,6 +45,10 @@ a:visited {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.border {
+  border: solid;
 }
 
 /*# sourceMappingURL=stylevariables.css.map */
