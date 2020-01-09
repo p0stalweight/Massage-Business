@@ -2,9 +2,6 @@ h1 {
   padding: 20px;
 }
 
-img {
-  padding: 20px;
-}
 
 p {
   font-size: 20px;
@@ -38,13 +35,6 @@ a:link {
 
 a:visited {
   color: darkblue;
-}
-
-.resize {
-  width: 500px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
 }
 
 .border {
